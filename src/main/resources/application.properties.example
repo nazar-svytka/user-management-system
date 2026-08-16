@@ -1,0 +1,39 @@
+spring.application.name=user-management-system
+
+# ===============================
+# DATABASE
+# ===============================
+spring.datasource.url=jdbc:postgresql://YOUR_HOST:5432/YOUR_DB?sslmode=require
+spring.datasource.username=YOUR_DB_USERNAME
+spring.datasource.password=YOUR_DB_PASSWORD
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+# ===============================
+# JPA / HIBERNATE
+# ===============================
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+# ===============================
+# SERVER
+# ===============================
+server.port=8080
+
+# ===============================
+# JWT
+# ===============================
+jwt.secret=REPLACE_WITH_A_LONG_RANDOM_SECRET_MIN_256_BITS
+jwt.access-token.expiration=3600000
+jwt.refresh-token.expiration=604800000
+
+# ===============================
+# SWAGGER
+# ===============================
+springdoc.swagger-ui.path=/swagger-ui.html
+
+# ===============================
+# CORS
+# ===============================
+app.cors.allowed-origins=http://localhost:5173
