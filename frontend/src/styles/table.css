@@ -1,0 +1,203 @@
+/* ===========================
+   Table
+=========================== */
+
+.table {
+
+    background: #ffffff;
+
+    border-radius: 16px;
+
+    overflow: hidden;
+
+    border: 1px solid #e5e7eb;
+
+    margin-bottom: 0;
+
+}
+
+.table thead {
+
+    background: #f8fafc;
+
+}
+
+.table thead th {
+
+    border: none !important;
+
+    border-bottom: 1px solid #e5e7eb !important;
+
+    color: #374151;
+
+    font-size: .95rem;
+
+    font-weight: 700;
+
+    padding: 18px;
+
+    white-space: nowrap;
+
+}
+
+.table tbody td {
+
+    padding: 18px;
+
+    border-color: #eef2f7;
+
+    vertical-align: middle;
+
+    color: #374151;
+
+}
+
+.table tbody tr {
+
+    transition: .2s ease;
+
+}
+
+.table tbody tr:hover {
+
+    background: #f9fafb;
+
+}
+
+.table tbody tr:last-child td {
+
+    border-bottom: none;
+
+}
+
+/* ===========================
+   Sort Header
+=========================== */
+
+.table thead th[style] {
+
+    cursor: pointer;
+
+    user-select: none;
+
+    transition: .2s ease;
+
+}
+
+.table thead th[style]:hover {
+
+    color: #2563eb;
+
+}
+
+/* ===========================
+   Badges
+=========================== */
+
+.badge {
+
+    border-radius: 999px !important;
+
+    padding: 8px 14px !important;
+
+    font-size: .75rem !important;
+
+    font-weight: 700;
+
+    letter-spacing: .4px;
+
+}
+
+.bg-danger {
+
+    background: #fee2e2 !important;
+
+    color: #991b1b !important;
+
+}
+
+.bg-primary {
+
+    background: #dbeafe !important;
+
+    color: #1d4ed8 !important;
+
+}
+
+/* ===========================
+   Search
+=========================== */
+
+.form-control {
+
+    height: 50px;
+
+    border-radius: 12px !important;
+
+    border: 1px solid #dbe2ea;
+
+    box-shadow: none;
+
+    transition: .25s;
+
+}
+
+.form-control:focus {
+
+    border-color: #2563eb;
+
+    box-shadow: 0 0 0 4px rgba(37,99,235,.12);
+
+}
+
+/* ===========================
+   Pagination
+=========================== */
+
+.d-flex.justify-content-center .btn {
+
+    min-width: 110px;
+
+}
+
+.d-flex.justify-content-center span {
+
+    font-weight: 600;
+
+    color: #374151;
+
+}
+
+/* ===========================
+   Loading
+=========================== */
+
+.spinner-border {
+
+    width: 3rem;
+
+    height: 3rem;
+
+}
+
+/* ===========================
+   Empty State
+=========================== */
+
+.table-empty {
+
+    padding: 60px;
+
+    text-align: center;
+
+    color: #6b7280;
+
+}
+
+.table-empty h5 {
+
+    margin-top: 15px;
+
+    margin-bottom: 10px;
+
+}
